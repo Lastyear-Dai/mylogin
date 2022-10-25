@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 盖住的盒子 -->
+        <div class="top-box">
+            <div class="top-tilite">
+                <h1>welcome</h1>
+            </div>
+            <div class="top-p">
+                <p>LAST YEAR</p>
+            </div>
+            <div class="top-img">
+                <img src="./img/01.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- 注册界面 -->
+        <div class="register-from">
+             <div class="register-tiltie"> <h1>注册</h2></div>
+            
+            <div class="register-input">
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+                <input type="password" placeholder="确认密码">
+            </div>
+            <div class="register-btn">
+                <button>注册</button>
+                <p onclick="myGuoDu()">有账号?去登录</p>
+            </div>
+        </div>
+        <!-- 登录界面 -->
+        <div class="login-from">
+            <div class="login-tiltie"><h1>登录</h2></div>
+            <div class="login-input">
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+               
+            </div>
+            <div class="login-btn">
+                <button>登录</button>
+                <p onclick="myGuoDu()">没有账号?去注册</p>
+            </div>
+        </div>
+
+
+    </div>   
+    <script src="./js/jquery.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
